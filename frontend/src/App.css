@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: url('https://img.freepik.com/free-psd/3d-icon-weather-conditions-with-rain-lightning_23-2150108739.jpg?w=740&t=st=1702120402~exp=1702121002~hmac=eccc59000b37e25ac12200380eb18fc0a8ca9a6c7457eb0c805f8223e06bf54a');
+}
+
+input {
+  padding: 10px;
+  margin-right: 5px;
+  background-color: rgba(255, 255, 255, 0.4);
+  border: none;
+  border-radius: 16px;
+}
+
+button {
+  padding: 10px;
+  cursor: pointer;
+  border: none;
+  background-color: #34465D;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  border-radius: 16px;
+}
+
+h1,
+h2 {
+  color: #333;
+}
+
+p {
+  color: #555;
+}
+
+img {
+  width: 200px;
+}
+
+.weather-app {
+  margin-top: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.weather-app.sunny {
+  background: url('https://img.freepik.com/free-photo/cloud-blue-sky_1232-3108.jpg?w=996&t=st=1702138177~exp=1702138777~hmac=10716f5c56f1e82942b1d8d456402af9af3bc2a2501d99636673001d5335e948');
+  background-size: cover;
+}
+
+.weather-app.rainy {
+  background: url('https://img.freepik.com/free-vector/realistic-clouds-with-falling-rain_1017-33597.jpg?w=1060&t=st=1702138497~exp=1702139097~hmac=30c9f926f7a8123ef6ab2e5ffc5872bbc8c831a5038596c1adffc8ce68e15a69');
+  background-size: cover;
+}
+
+.weather-app.cloudy {
+  background: url('https://img.freepik.com/free-photo/storm-clouds_1122-2748.jpg?w=996&t=st=1702138537~exp=1702139137~hmac=92fd38139f98afa81475ef42983401ed58da92b42ab42bdd8bbaa9b6bf2458dc');
+  background-size: cover;
+}
+.weather-app.thunder {
+  background: url('https://img.freepik.com/free-vector/vector-lightning-night-illustration_1284-41866.jpg?w=360&t=st=1702146255~exp=1702146855~hmac=6ae62ce4d5ad62d6512394bad66f71da31de67077ac4a25a5783c425934db5ae');
+  background-size: cover;
+}
+
+.weather-app.snow {
+  background: url('https://img.freepik.com/free-photo/3d-snowy-winter-landscape_1048-11056.jpg?w=740&t=st=1702146433~exp=1702147033~hmac=2252f109dec2304a567fcc76e1a3b5107945dbdff85c133de00bf56898397089');
+  background-size: cover;
+}
+
+.weather-card {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  padding: 20px;
+  margin: 0 auto;
+  width: 25%;
+  box-shadow: 0 15px 25px rgba(129, 124, 124, 0.2);
+  height: 420px;
+  backdrop-filter: blur(14px);
+  text-align: center;
+}
+
+.error-message {
+  color: red;
+  margin-top: 10px;
+}
