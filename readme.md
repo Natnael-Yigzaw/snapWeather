@@ -2,6 +2,17 @@
 
 SnapWeather is a simple and efficient weather application that leverages the OpenWeatherMap API. The app is designed with a responsive and user-friendly interface using React for the frontend and Express for the backend.
 
+## Snapshots
+
+![Screenshot 1](screenshots/home.png)
+_Home Screen_
+
+![Screenshot 2](screenshots/cloudy.png)
+_clody screen for cloudy weather condition_
+
+![Screenshot 2](screenshots/sunny.png)
+_sunny screen for sunny weather condition_
+
 ## Features
 
 - **Real-Time Updates**: Fetches and displays accurate weather data using the OpenWeatherMap API.
